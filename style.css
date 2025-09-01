@@ -1,0 +1,152 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #1e1e8f;
+}
+
+h1, h2 {
+  color: #8ea2b4;
+  margin-bottom: 15px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+/* Cabeçalho */
+header {
+  background: #0d3b66;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header nav {
+  margin-top: 10px;
+}
+
+header nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Seções */
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#sobre img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 50%;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+  
+}
+
+/* Formação */
+#formacao ul {
+  list-style-type: disc;
+  margin: 20px auto;
+  max-width: 500px;
+  text-align: left;
+  text-transform: lowercase;
+
+}
+
+/* Galeria de projetos */
+.galeria {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projeto {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  width: 250px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.projeto img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.projeto:hover {
+  transform: scale(1.05);
+}
+
+/* Formulário */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin: 8px 0 4px;
+  font-weight: bold;
+}
+
+form input, form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-size: 1em;
+}
+
+form input:focus, form textarea:focus {
+  border-color: #0d3b66;
+  outline: none;
+}
+
+button {
+  background: #0d3b66;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #054a91;
+}
+
+/* Rodapé */
+footer {
+  background: #0d3b66;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+
